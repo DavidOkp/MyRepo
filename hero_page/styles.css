@@ -1,0 +1,248 @@
+body {
+    background-image: url('C:/Users/HP/Desktop/Deda Landing Page/hero_page/DEDA LP1.jpg');
+    background-size: cover;
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 135vh;
+    display: block;
+
+}
+
+header {
+    margin-top: 20px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    height: 16vh;
+    display: flex;
+    background-attachment: fixed;
+}
+
+ul {
+    font-weight: 600;
+    list-style-type: none;
+    display: flex;
+    gap: 19px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(47, 176, 47);
+}
+
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button {
+    height: 9vh;
+    background-color: rgb(85, 167, 85);
+    color: #ffffff;
+    border-radius: 5px;
+    width: 150px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+    margin-top: 15px;
+}
+
+.appointment-button {
+    margin-left: 120px;
+}
+
+.hero-content {
+    margin-top: 200px;
+    margin-left: 80px;
+    width: 50%;
+    height: 45%;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 300%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+    height: 30px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 300%;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    height: 30px;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 100%;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    height: 10px;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 100%;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.learn-more-button {
+    height: 10vh;
+    background-color: rgb(85, 167, 85);
+    color: #ffffff;
+    border-radius: 5px;
+    width: 150px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 90%;
+}
+
+.about-us {
+    display: flex;
+    margin-top: 300px;
+    padding-left: 25px; 
+}
+
+.about-us-img {
+    display: flex;
+    width: 60%;
+    border-radius: 4px;
+    height: 90%;
+}
+
+.abui-container {
+    display: flex;
+    justify-content: end;
+}
+
+.p1 {
+    width: 180%;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(85, 167, 85);
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.p2{
+    width: 300%;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    height: 10px;
+}
+
+.p3 {
+    width: 300%;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    height: 10px;
+    margin-bottom: 40px;
+}
+
+.p4 {
+    width: 300%;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    height: 10px;
+}
+
+.p5 {
+    width: 300%;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    height: 10px;
+}
+
+.p6 {
+    width: 300%;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 40px;    
+}
+
+.p7 {
+    width: 300%;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    height: 10px;
+}
+
+.p8 {
+    width: 300%;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    height: 10px;
+}
+
+.p9 {
+    width: 300%;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    height: 10px;
+}
+
+.p10 {
+    width: 300%;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.abu-learn-more {
+     height: 8vh;
+    background-color: rgb(85, 167, 85);
+    color: #ffffff;
+    border-radius: 5px;
+    width: 165px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 605;
+    font-size: 100%;
+    margin-top: 15px;
+}
+
+.services {
+    display: flex;
+    width: 100%;
+    border: solid 1px #000000;
+    height: 105%;
+    margin-top: 85px;
+    background-color: rgb(234, 245, 234);
+    border: none;
+}
+
+.services-img {
+    width: 80%;
+    /* margin-top: 164px; */
+}
+
