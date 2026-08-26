@@ -4,26 +4,31 @@ body {
     background-color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
-    height: 135vh;
-    display: block;
+    height: 120vh;
 
 }
 
+/* header */
 header {
     margin-top: 20px;
     font-family: sans-serif;
     padding-left: 10px;
     height: 16vh;
     display: flex;
-    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    margin-top: 20px;
+    width: 179px;
 }
 
 ul {
+    display: flex;
     font-weight: 600;
     list-style-type: none;
-    display: flex;
     gap: 19px;
-    margin-top: 30px;
     margin-left: 20px;
     font-family: 'Raleway', sans-serif;
 }
@@ -60,19 +65,22 @@ button {
     margin-left: 120px;
 }
 
+
+/* hero section */
 .hero-content {
-    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
     margin-left: 80px;
-    width: 50%;
-    height: 45%;
 }
+
 
 h1 {
     color: #ffffff;
     font-size: 300%;
     font-family: 'Raleway', sans-serif;
     font-weight: 1000;
-    height: 30px;
+
 }
 
 h2 {
@@ -80,7 +88,6 @@ h2 {
     font-size: 300%;
     font-weight: 300;
     font-family: 'Raleway', sans-serif;
-    height: 30px;
 }
 
 h3 {
@@ -88,7 +95,7 @@ h3 {
     font-size: 100%;
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
-    height: 10px;
+    /* height: 10px; */
 }
 
 h4 {
@@ -99,7 +106,6 @@ h4 {
 }
 
 .learn-more-button {
-    height: 10vh;
     background-color: rgb(85, 167, 85);
     color: #ffffff;
     border-radius: 5px;
@@ -110,23 +116,32 @@ h4 {
     font-size: 90%;
 }
 
+
+/* about us */
 .about-us {
+
     display: flex;
     margin-top: 300px;
+    padding-bottom: 25px;
     padding-left: 25px; 
 }
 
-.about-us-img {
-    display: flex;
-    width: 60%;
-    border-radius: 4px;
-    height: 90%;
-}
+/* .about-us-text {
+    border: solid 1px #000000;
+} */
 
 .abui-container {
-    display: flex;
-    justify-content: end;
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 300px;
 }
+
+.about-us-img {
+    height: 90%;
+    width: 100%;
+    border-radius: 4px;
+}
+
 
 .p1 {
     width: 180%;
@@ -136,13 +151,12 @@ h4 {
     font-size: 34px;
 }
 
-.p2{
+.p2 {
     width: 300%;
     font-family: 'Raleway', sans-serif;
     color: #000000;
     font-weight: 500;
     font-size: 16px;
-    height: 10px;
 }
 
 .p3 {
@@ -151,27 +165,17 @@ h4 {
     color: #000000;
     font-weight: 500;
     font-size: 16px;
-    height: 10px;
     margin-bottom: 40px;
 }
 
-.p4 {
+.p4, .p5, .p7, .p8, .p9 {
     width: 300%;
     font-family: 'Raleway', sans-serif;
     color: #000000;
     font-weight: 500;
     font-size: 16px;
-    height: 10px;
 }
 
-.p5 {
-    width: 300%;
-    font-family: 'Raleway', sans-serif;
-    color: #000000;
-    font-weight: 500;
-    font-size: 16px;
-    height: 10px;
-}
 
 .p6 {
     width: 300%;
@@ -182,32 +186,6 @@ h4 {
     margin-bottom: 40px;    
 }
 
-.p7 {
-    width: 300%;
-    font-family: 'Raleway', sans-serif;
-    color: #000000;
-    font-weight: 500;
-    font-size: 16px;
-    height: 10px;
-}
-
-.p8 {
-    width: 300%;
-    font-family: 'Raleway', sans-serif;
-    color: #000000;
-    font-weight: 500;
-    font-size: 16px;
-    height: 10px;
-}
-
-.p9 {
-    width: 300%;
-    font-family: 'Raleway', sans-serif;
-    color: #000000;
-    font-weight: 500;
-    font-size: 16px;
-    height: 10px;
-}
 
 .p10 {
     width: 300%;
@@ -217,7 +195,7 @@ h4 {
     font-size: 16px;
     margin-bottom: 30px;
 }
-
+ 
 .abu-learn-more {
      height: 8vh;
     background-color: rgb(85, 167, 85);
@@ -231,18 +209,669 @@ h4 {
     margin-top: 15px;
 }
 
+
+/* services */
 .services {
     display: flex;
-    width: 100%;
     border: solid 1px #000000;
-    height: 105%;
+    height: 807px;
     margin-top: 85px;
     background-color: rgb(234, 245, 234);
     border: none;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.our-services {
+    display: block;
+    width: 750px;
+}
+
+.serv-txt-div {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(85, 167, 85);
+    font-weight: 700;
+    font-size: 200%;    
+    margin-top: 70px;
+    height: 12%;
+    width: 45%;
+}
+
+.med-serv {
+    height: 17%;
+}
+
+.design {
+    width: 13%;
+    border-radius: 3px;
+    height: 4%;
+    background-color: rgb(85, 167, 85);
 }
 
 .services-img {
-    width: 80%;
-    /* margin-top: 164px; */
+    width: 104%; 
 }
 
+.service-img-div {
+    width: 40%;
+    margin-top: 153px;
+}
+
+.mini-1 {
+    margin-top: 35px;
+    height: 200px;
+    display: flex;
+    gap: 10px;
+}
+
+.pregnancy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin-top: 20px;
+}
+
+.mini-obsterics {
+   width: 180px;
+   height: 90%;
+   margin-left: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+}
+
+.obsterics {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p-obsterics {
+    margin-top: 10px;
+    height: 0;
+}
+
+
+.heart {
+    position: absolute;
+    width: 6%;
+}
+
+.mini-cardiology{
+   width: 180px;
+   height: 80%;
+   margin-left: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+}
+
+.cardiology {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-cardiology {
+    margin-top: 110px;
+    height: 10;
+}
+
+/* paediatrics */
+.child{
+    position: absolute;
+    width: 7%;
+    margin-top: 10px;
+}
+
+.mini-paediatrics{
+   width: 180px;
+   height: 80%;
+   margin-left: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+}
+
+.paediatrics {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-paediatrics {
+    margin-top: 110px;
+    height: 0;
+}
+
+
+.baby {
+    position: absolute;
+    width: 7%;
+    margin-top: 10px;
+}
+
+.mini-neonatology{
+   width: 180px;
+   height: 80%;
+   margin-left: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+.neonatology {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-neonatology {
+    margin-top: 110px;
+    height: 0;
+}
+
+
+.mini-2 {
+    margin-top: 2px;
+    height: 200px;
+    display: flex;
+    gap: 1px;
+}
+
+.head {
+    position: absolute;
+    width: 8%;
+    margin-top: 10px;
+}
+
+.mini-ent {
+   width: 180px;
+   height: 80%;
+   margin-left: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+.ent {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-ent {
+    margin-top: 110px;
+    height: 0;
+}
+
+
+.xray {
+    position: absolute;
+    width: 8%;
+    margin-top: 10px;
+}
+
+.mini-radiology {
+   width: 180px;
+   height: 80%;
+   margin-left: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+.radiology {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-radiology {
+    margin-top: 110px;
+    height: 0;
+}
+
+
+.brain {
+    position: absolute;
+    width: 6%;
+    margin-top: 10px;
+}
+
+.mini-neurology {
+   width: 180px;
+   height: 80%;
+   margin-left: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+.neurology {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-neurology {
+    margin-top: 110px;
+    height: 0;
+}
+
+
+.fam {
+    position: absolute;
+    width: 7%;
+    margin-top: 10px;
+}
+
+.mini-family {
+   width: 180px;
+   height: 80%;
+   margin-left: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+.family {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-family {
+    margin-top: 120px;
+    height: 0;
+}
+
+
+.mini-3 {
+    margin-top: 1px;
+    height: 200px;
+    display: flex;
+    gap: 1px;
+}
+
+
+.gen-surgery {
+    position: absolute;
+    width: 6%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mini-surgery {
+   width: 180px;
+   height: 80%;
+   margin-left: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+.surgery {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-surgery {
+    margin-top: 110px;
+    height: 0;
+}
+
+
+.pill {
+    position: absolute;
+    width: 6%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mini-pharma {
+   width: 180px;
+   height: 80%;
+   margin-left: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+.pharma {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-pharma {
+    margin-top: 110px;
+    height: 0;
+}
+
+
+.dna {
+    position: absolute;
+    width: 6%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mini-genetics {
+   width: 180px;
+   height: 80%;
+   margin-left: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+.genetics {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-genetics {
+    margin-top: 110px;
+    height: 0;
+}
+
+
+.microscope {
+    position: absolute;
+    width: 6%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mini-lab {
+   width: 180px;
+   height: 80%;
+   margin-left: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+.lab {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-lab {
+    margin-top: 110px;
+    height: 0;
+}
+
+
+/* choose us */
+.choose-us {
+    margin-top: 120px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(85, 167, 85);
+    font-weight: 700;
+    font-size: 200%;    
+} 
+
+.choose-us-1 {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    height: 7px;
+    margin-top: 30px;
+}
+
+.choose-us-2 {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    height: 6px;
+}
+
+.choose-us-3 {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.expertise-main {
+    height: 75%;
+    display: flex;
+}
+
+.expertise-text {
+    width: 55%;
+}
+
+.expertise-1 {
+    display: flex;
+    height: 40%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.excep-exper, .equipment {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.exp-img, .equip-img {
+    margin-top: 20px;
+    width: 24%;
+    height: 40%;
+}
+
+.exp-txt, .equip-text {
+    height: 100%;
+    width: 70%;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.exp-txt-1, .equip-text-1 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(85, 167, 85);
+    font-weight: 700;
+    font-size: 150%; 
+}
+
+.exp-txt-2, .equip-text-2 {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 100%; 
+    
+}
+
+.expertise-2 {
+    display: flex;
+    height: 40%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.policy, .patient {
+    width: 60%;
+    height: 100%;
+    display: flex;
+
+}
+
+.policy-img {
+    margin-top: 20px;
+    width: 24%;
+    height: 40%;
+}
+
+.patient-img {
+    margin-top: 20px;
+    width: 24%;
+    height: 40%;
+}
+
+.policy-text, .patient-text {
+    height: 100%;
+    width: 70%;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.policy-text-1, .patient-text-1 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(85, 167, 85);
+    font-weight: 700;
+    font-size: 150%; 
+}
+
+.policy-text-2, .patient-text-2 {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 100%; 
+}
+
+
+.choose-us-img {
+    /* border: solid 1px #000000; */
+    display: flex;
+    width: 45%;
+    height: 90%;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.merge-us {
+    width: 800px;
+}
+
+
+.why-us-1 {
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.why-us-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 46%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.why-us-3 {
+    border-radius: 5px;
+    width: 90%;
+    height: 75%;
+    margin-left: 25px;
+}
+
+.year-exp {
+    border-radius: 5px;
+    height: 20%;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(99, 189, 99);
+}
+
+.year {
+    display: flex;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.yoe {
+    font-family: sans-serif;
+    color: #ffffff;
+    display: flex;
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 30px;
+}
+
+.line {
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+footer {
+    border: solid 1px #000000;
+    margin-top: 70px;
+    height: 16%;
+    background-color: #302f2f;
+    display: flex;
+}
+
+.follow {
+    margin-top: 20px;
+    padding-left: 35px;
+    width: 200px;
+    color: #ffffff;
+    /* border: solid 1px #ffffff; */
+    height: 50%;
+    font-size: 130%;
+    font-family: sans-serif;
+}
+
+.sidma {
+    margin-left: 25%;
+    /* border: solid 1px #ffffff; */
+    margin-top: 20px;
+    width: 300px;
+    color: #ffffff;
+    height: 50%;
+    font-size: 120%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
