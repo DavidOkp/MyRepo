@@ -13,16 +13,20 @@
 
 <body>
 
-    <!-- header -->
+    <div class="hero-page">
+        <!-- header -->
+         <div style="color: black; position: absolute; left: 0; right: 0; z-index: -999; display: flex; height: 100%;"></div>
     <header>
         <div class="logo">
-            <img class="logo-img" src="C:\Users\HP\Desktop\Deda Landing Page\hero_page\deda-logo-light.png" alt="Deda Hospital Logo"/>
+            <img class="logo-img" src="../Deda Landing Page/hero_page/deda-logo-light.png" alt="Deda Hospital Logo"/>
+            <img class="logo-img-2" src="./hero_page/dedalogo.png">
         </div>
 
-        <ul>
+        <ul class="menu-item">
             <li>
                 <a href="#home" style="color: rgb(47, 176, 47);">Home</a>
             </li>
+            
             <li>
                 <a href="#about">About Us</a>
             </li>
@@ -44,17 +48,29 @@
         </ul>
 
         <div class="appointment-button"> 
-            <button>Appointment</button>
+            <button class="ap-btn">Appointment</button>
+        </div>
+
+        <div class="hamburger">
+            <span class="dropdown-logo">
+                <img src="./hero_page/bars-solid-full.svg" style="height: 100%; width: 100%;" >
+            </span>
+            
         </div>
     </header>
     
-    <!-- hero page -->
+
     <div class="hero-content">
         <div class="hero-text">
-            <h1>Until everyone is well.</h1>
-            <h2>Your Health is Our Priority.</h2>
-            <h3>We've been providing the best private medical care in Nigeria</h3>
-            <h4>for over 10 years. Your health lies at the heart of everything we do.</h4>
+            <div class="hero-text-1" style=" line-height: 24px; height: 60%;"> 
+                <p class="p-h1">Until everyone is well.</p>
+                <p style=" width: 100%;" class="p-h2">Your Health is Our Priority.</p>
+            </div>
+
+            <div  style=" line-height: 10px;">
+                <p class="p-h3">We've been providing the best private medical care in Nigeria</p>
+                <p class="p-h4">for over 10 years. Your health lies at the heart of everything we do.</p>
+            </div>
         </div>
 
         <div class="">
@@ -62,139 +78,152 @@
         </div>
     
     </div>
+    </div>
 
 
     <!-- about us -->
     <div class="about-us">
-        <div class="about-us-text">
-            <p class="p1">About Us</p>
+        <p class="p1">About Us</p>
 
-            <div class="abu-text-1">
-                <p class="p2">DEDA Hospital is a leading healthcare facility with a history of successful</p>
-                <p class="p3">health outcomes for our clients since 2012.</p>
+        <div class="abu-cont" style="display: flex;">
+            <div class="about-us-text">
+                <div class="ab-text-1" style="font-family: sans-serif; color: rgb(41, 40, 40); line-height: 23px; font-size: 17px;">
+                    <p  class="p2">DEDA Hospital is a leading healthcare facility with a history of successful health outcomes for our clients since 2012.</p>
+                </div>
+
+                <div class="ab-text-2" style="font-family: sans-serif; color: rgb(41, 40, 40); line-height: 24px; font-size: 17px;">
+                    <p  class="p3">DEDA Hospital is home to an array of experienced healthcare professionals and administrators from across the world, all dedicated to delivering optimal healthcare services to women, children, and families.</p>
+                </div>
+
+                <div class="ab-text-3" style="font-family: sans-serif; color: rgb(41, 40, 40); line-height: 24px; font-size: 17px;">
+                    <p class="p4">From Family Medicine and Specialist Care, Obstetrics and Gynaecology, Fertility Treatment (ART), General Surgery, Paediatrics, ENT, Clinical Laboratory Services, and an in-house Pharmacy to exceptional customer service, DEDA Hospital delivers the quality healthcare services you need.</p>
+                </div>
+
+                <button class="abu-learn-more">Learn More</button>
             </div>
 
-            <div class="abu-text-2">
-                <p class="p4">DEDA Hospital is home to an array of experienced healthcare</p>
-                <p class="p5">professionals and administrators from across the world, all dedicated to</p>
-                <p class="p6">delivering optimal healthcare services to women, children, and families.</p>
+            <div class="abui-container">
+                <img class="about-us-img" src="C:\Users\HP\Desktop\Deda Landing Page\about_us\img-vid-1-scaled.jpg">
             </div>
-
-            <div class="abu-text-3">
-                <p class="p7">From Family Medicine and Specialist Care, Obstetrics and Gynaecology,</p>
-                <p class="p8">Fertility Treatment (ART), General Surgery, Paediatrics, ENT, Clinical</p>
-                <p class="p9">Laboratory Services, and an in-house Pharmacy to exceptional customer</p>
-                <p class="p10">service, DEDA Hospital delivers the quality healthcare services you need.</p>
-            </div>
-
-            <button class="abu-learn-more">Learn More</button>
-        </div>
-
-        <div class="abui-container">
-            <img class="about-us-img" src="C:\Users\HP\Desktop\Deda Landing Page\about_us\img-vid-1-scaled.jpg">
         </div>
     </div>
 
+    
     <!-- services -->
     <div class="services">  
         <div class="service-img-div">
             <img class="services-img" src="C:\Users\HP\Desktop\Deda Landing Page\services\dr-onuh-dedahospital.png">
         </div>
-
+ 
         <div class="our-services">
             <div class="serv-txt-div">
                 <p class="med-serv">Our Medical Services</p>
                 <div class="design"></div>
             </div>
 
-            <div class="mini-1">
-                <div class="mini-obsterics">
-                    <div class="obsterics">
-                        <img class="pregnancy" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-7u8w3.png" alt="preg">
-                        <p class="p-obsterics">Obsterics &</p>
-                        <p class="p-gynaecology">Gynaecology</p>
-                    </div>
-                </div>
 
-                <div class="mini-cardiology">
-                    <div class="cardiology">
-                        <img class="heart" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-1hcla.png" alt="pulse">
-                        <p class="p-cardiology">Cardiology</p>
+            <div class="services-mini">
+                <div class="mini-1">
+                    <div class="mmo-1">
+                        <div class="mini-obsterics">
+                            <div class="obsterics">
+                                <img class="pregnancy" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-7u8w3.png" alt="preg">
+                                <p class="p-obsterics" style=" width: 50%; height: 20%;">Obsterics & Gynaecology</p>
+                            </div>
+                        </div>
+    
+                        <div class="mini-cardiology">
+                            <div class="cardiology">
+                                <img class="heart" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-1hcla.png" alt="pulse">
+                                <p class="p-cardiology">Cardiology</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="mini-paediatrics">
-                    <div class="paediatrics">
-                        <img class="child" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-7b7p6.png" alt="child">
-                        <p class="p-paediatrics">Paediatrics</p>
-                    </div>
-                </div>
-
-                <div class="mini-neonatology">
-                    <div class="neonatology">
-                        <img class="baby" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-s8w24.png">
-                        <p class="p-neonatology">Neonatology</p>
-                    </div>
-                </div>
-            </div>
-
+    
+                    <div class="mmo-2">
+                        <div class="mini-paediatrics">
+                            <div class="paediatrics">
+                                <img class="child" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-7b7p6.png" alt="child">
+                                <p class="p-paediatrics">Paediatrics</p>
+                            </div>
+                        </div>
         
-            <div class="mini-2">
-                <div class="mini-ent">
-                    <div class="ent">
-                        <img class="head" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-izwws.png" alt="head">
-                        <p class="p-ent">Ear, Nose & Throat</p>
+                        <div class="mini-neonatology">
+                            <div class="neonatology">
+                                <img class="baby" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-s8w24.png">
+                                <p class="p-neonatology">Neonatology</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="mini-radiology">
-                    <div class="radiology">
-                        <img class="xray" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-2aevk.png" alt="xray">
-                        <p class="p-radiology">Radiology</p>
+    
+            
+                <div class="mini-2">
+                    <div class="mmo-3">
+                        <div class="mini-ent">
+                            <div class="ent">
+                                <img class="head" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-izwws.png" alt="head">
+                                <p class="p-ent">Ear, Nose & Throat</p>
+                            </div>
+                        </div>
+        
+                        <div class="mini-radiology">
+                            <div class="radiology">
+                                <img class="xray" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-2aevk.png" alt="xray">
+                                <p class="p-radiology">Radiology</p>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="mmo-4">
+                        <div class="mini-neurology">
+                            <div class="neurology">
+                                <img class="brain" src="C:\Users\HP\Desktop\Deda Landing Page\services\Screenshot 2026-08-20 044324.png" alt="brain">
+                                <p class="p-neurology">Neurology</p>
+                            </div>
+                        </div>
+        
+                        <div class="mini-family">
+                            <div class="family">
+                                <img class="fam" src="C:\Users\HP\Desktop\Deda Landing Page\services\Screenshot 2026-08-20 035921.png" alt="family">
+                                <p class="p-family">Family Medicine</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="mini-neurology">
-                    <div class="neurology">
-                        <img class="brain" src="C:\Users\HP\Desktop\Deda Landing Page\services\Screenshot 2026-08-20 044324.png" alt="brain">
-                        <p class="p-neurology">Neurology</p>
+    
+                <div class="mini-3">
+                    <div class="mmo-5">
+                        <div class="mini-surgery">
+                            <div class="surgery">
+                                <img class="gen-surgery" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-m56dq.png" alt="gensurg">
+                                <p class="p-surgery">General Surgery</p>
+                            </div>
+                        </div>
+        
+                        <div class="mini-pharma">
+                            <div class="pharma">
+                                <img class="pill" src="C:\Users\HP\Desktop\Deda Landing Page\services\Screenshot 2026-08-20 035959.png" src="" alt="pill">
+                                <p class="p-pharma">Pharmaceuticals</p>
+                            </div>
+                        </div>                   
                     </div>
-                </div>
-
-                <div class="mini-family">
-                    <div class="family">
-                        <img class="fam" src="C:\Users\HP\Desktop\Deda Landing Page\services\Screenshot 2026-08-20 035921.png" alt="family">
-                        <p class="p-family">Family Medicine</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mini-3">
-                <div class="mini-surgery">
-                    <div class="surgery">
-                        <img class="gen-surgery" src="C:\Users\HP\Desktop\Deda Landing Page\services\slazzer-preview-m56dq.png" alt="gensurg">
-                        <p class="p-surgery">General Surgery</p>
-                    </div>
-                </div>
-
-                <div class="mini-pharma">
-                    <div class="pharma">
-                        <img class="pill" src="C:\Users\HP\Desktop\Deda Landing Page\services\Screenshot 2026-08-20 035959.png" src="" alt="pill">
-                        <p class="p-pharma">Pharmaceuticals</p>
-                    </div>
-                </div>
-
-                <div class="mini-genetics">
-                    <div class="genetics">
-                        <img class="dna" src="C:\Users\HP\Desktop\Deda Landing Page\services\Screenshot 2026-08-20 040017.png" alt="dna">
-                        <p class="p-genetics">A.R.T & Genetics</p>
-                    </div>
-                </div>
-
-                <div class="mini-lab">
-                    <div class="lab">
-                        <img class="microscope" src="C:\Users\HP\Desktop\Deda Landing Page\services\Screenshot 2026-08-20 040027.png" alt="microscope">
-                        <p class="p-lab">Laboratory</p>
+    
+                    <div class="mmo-6">
+                        <div class="mini-genetics">
+                            <div class="genetics">
+                                <img class="dna" src="C:\Users\HP\Desktop\Deda Landing Page\services\Screenshot 2026-08-20 040017.png" alt="dna">
+                                <p class="p-genetics">A.R.T & Genetics</p>
+                            </div>
+                        </div>
+        
+                        <div class="mini-lab">
+                            <div class="lab">
+                                <img class="microscope" src="C:\Users\HP\Desktop\Deda Landing Page\services\Screenshot 2026-08-20 040027.png" alt="microscope">
+                                <p class="p-lab">Laboratory</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -204,15 +233,14 @@
 
     <!-- why choose us -->
     <div class="choose-us">Why Choose Us</div>
-    <p class="choose-us-1">At Deda Hospital, we understand that choosing a healthcare provider is a crucial decision.</p>
-    <p class="choose-us-2">That's why we're committed to providing exceptional care that exceeds your expectations in</p>
-    <p class="choose-us-3">every aspect.</p>
+    <p class="choose-us-1">At Deda Hospital, we understand that choosing a healthcare provider is a crucial decision. That's why we're committed to providing exceptional care that exceeds your expectations in every aspect.</p>
 
     <div class="expertise-main">
         <div class="expertise-text">
+
             <div class="expertise-1">
                 <div class="excep-exper">
-                    <img class="exp-img" src="C:\Users\HP\Desktop\Deda Landing Page\choose_us\Screenshot 2026-08-20 223745.png" alt="doctors">
+                    <img class="exp-img" src="./choose_us/Screenshot 2026-08-20 223745.png" alt="doctors">
 
                     <div class="exp-txt">
                         <p class="exp-txt-1">Exceptional Expertise</p>
@@ -221,7 +249,7 @@
                 </div>
 
                 <div class="equipment">
-                    <img class="equip-img" src="C:\Users\HP\Desktop\Deda Landing Page\choose_us\Screenshot 2026-08-20 223759.png" alt="machine">
+                    <img class="equip-img" src="./choose_us/Screenshot 2026-08-20 223759.png" alt="machine">
             
                     <div class="equip-text">
                         <p class="equip-text-1">Cutting-edge Equipments</p>
@@ -232,7 +260,7 @@
 
             <div class="expertise-2">
                 <div class="policy">
-                    <img class="policy-img" src="C:\Users\HP\Desktop\Deda Landing Page\choose_us\Screenshot 2026-08-20 223812.png" alt="machine">
+                    <img class="policy-img" src="./choose_us/Screenshot 2026-08-20 223812.png" alt="machine">
             
                     <div class="policy-text">
                         <p class="policy-text-1">Quality Policy</p>
@@ -241,7 +269,7 @@
                 </div>
 
                 <div class="patient">
-                    <img class="patient-img" src="C:\Users\HP\Desktop\Deda Landing Page\choose_us\Screenshot 2026-08-20 223826.png" alt="patient">
+                    <img class="patient-img" src="./choose_us/Screenshot 2026-08-20 223826.png" alt="patient">
             
                     <div class="patient-text">
                         <p class="patient-text-1">Patient-Centered</p>
@@ -253,13 +281,13 @@
 
         <div class="choose-us-img">
             <div class="merge-us">
-                <img class="why-us-1" src="C:\Users\HP\Desktop\Deda Landing Page\choose_us\why-deda-img-2.jpg">
+                <img class="why-us-1" src="./choose_us/why-deda-img-2.jpg">
 
-                <img class="why-us-2" src="C:\Users\HP\Desktop\Deda Landing Page\choose_us\why-deda-img-3.jpg">
+                <img class="why-us-2" src="./choose_us/why-deda-img-3.jpg">
             </div>
 
             <div class="merge-us-2">
-                <img class="why-us-3" src="C:\Users\HP\Desktop\Deda Landing Page\choose_us\why-deda-img-1.jpg">
+                <img class="why-us-3" src="./choose_us/why-deda-img-1.jpg">
                 
                 <div class="year-exp">
                     <p class="year">15+</p>
@@ -269,16 +297,78 @@
             </div>
         </div>
     </div>
+    
 
     <!-- footer -->
-    <footer>
-        <div class="follow  ">
+    <footer class="footer-1">
+        <div class="follow">
             <p class="follow-us">Follow Us</p>
         </div>
 
-        <div class="sidma">
-            <p class="sign-in">Sign in and don't miss anything!</p>
+        <div class="sign-in">
+            <p class="sign-in-text">Sign in and don't miss anything!</p>
         </div>
+
+        <form class="subscribe-form">
+            <input class="subscribe-input" placeholder="Enter your e-mail" type="email">
+
+            <button class="subscribe-btn" type="submit">SUBSCRIBE</button>
+        </form>
+    </footer>
+
+    <footer class="footer-2">
+        <div class="footer-txt-1">
+            <img class="footer-logo" src="C:\Users\HP\Desktop\Deda Landing Page\hero_page\deda-logo-light.png" alt="deda logo">
+
+            <p class="foot-txt" style="color: #e6e0e0; font-family: 'Raleway', sans-serif; line-height: 25px; margin-top: 40px; font-size: large;">Deda Hospital is a 35 bed multi-speciality Hospital located in Abuja, Nigeria. We offer patient focused world class medical treatment, the proof of our service delivery is embedded in our Motto: "Until Everyone is well"</p>
+        </div>
+
+        <div class="footer-txt-2">
+            <p style="color: #ffffff; font-family: 'Raleway', sans-serif; font-size: 25px;">About Deda Hospital</p>
+            <div class="footer-design"></div>
+
+            <p class="about-deda-txt">Who We Are</p>
+            <p class="about-deda-txt">Management Team</p>
+            <p class="about-deda-txt">Insurance Companaies</p>
+            <p class="about-deda-txt">Customer Support</p>
+            <p class="about-deda-txt">Quality and Safety</p>
+        </div>
+
+        <div class="footer-txt-3">
+            <p style="color: #ffffff; font-family: 'Raleway', sans-serif; font-size: 25px;">Quick Links</p>
+            <div class="footer-design-ql"></div>
+
+            <p class="about-deda-txt">Obsterics & Gynaecology</p>
+            <p class="about-deda-txt">In-Vitro Fertilization(IVF)</p>
+            <p class="about-deda-txt">Family Medicine</p>
+            <p class="about-deda-txt">General Surgery</p>
+            <p class="about-deda-txt">Neonatology</p>
+        </div>
+
+        <div class="footer-txt-4">
+            <p style="font-size: 25px; color: #ffffff; font-family: 'Raleway', sans-serif;">Contact Us</p>
+            <div class="footer-design"></div>
+
+            <div style="display: flex;">
+                <img style="width: 8%; height: 3%; margin-top: 15px;" class="location-dot" src="C:\Users\HP\Desktop\Deda Landing Page\footer\location-dot-solid-full.svg">
+                <p style="font-size: large; margin-left: 15px;" class="about-deda-txt">Plot 1847, B07 Cadastral Zone, Behind ABC Cargo, Katampe, Abuja, Nigeria</p>
+            </div>
+
+            <div style="display: flex;">
+                <img style="width: 8%; height: 3%; margin-top: 15px;" class="location-dot" src="C:\Users\HP\Desktop\Deda Landing Page\footer\phone-solid-full.svg">
+                <p style="font-size: large; margin-left: 15px;" class="about-deda-txt">07000013332, 08184227707</p>
+            </div>
+            
+            <div style="display: flex;">
+                <img style="width: 8%; height: 3%; margin-top: 15px;" class="location-dot" src="C:\Users\HP\Desktop\Deda Landing Page\footer\envelope-regular-full.svg">
+                <p style="font-size: large; margin-left: 15px;" class="about-deda-txt">info@dedahospital.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer-3">
+        <p class="final-footer-txt">© 2024 Deda Hospital. All Rights Reserved. Website by</p>
+        <p class="final-footer-txt-2" style="margin-left: 5px; color: rgb(85, 167, 85); font-family: sans-serif; font-size: 16px;">David</p>
     </footer>
 </body>
 </html>
